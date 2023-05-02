@@ -1,0 +1,115 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #D3D3D3; /*Изменить!!!*/
+}
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 300px;
+    background-color: #cf2121; /*Изменить!!!*/
+    background: url(https://cdn.pixabay.com/photo/2020/02/03/15/56/newspaper-4816022_960_720.jpg);
+    border-radius: 0px 0px 25px 25px;
+}
+
+h1 {
+    color: #8B0000;
+    font-size: 5rem;
+    font-family: 'Courier New', Courier, monospace;
+    background-color: #F0F0F0;
+    padding: 0px 10px;
+}
+
+.news {
+    background-color: #F5F5F5;
+    padding: 25px 0 32px;
+    border-radius: 25px;
+}
+
+article {
+    width: 768px;
+    margin: 0 auto 32px;
+    padding: 6px 15px;
+    border-bottom: 4px ridge rgba(128, 128, 128, .6);
+    border-radius: 20px;
+}
+
+article:nth-child(even) {
+    background-color: #DCDCDC;
+}
+
+
+article a {
+    color: rgb(33, 37, 41);
+    text-decoration: none;
+}
+
+article a:hover {
+    color: #FF0000;
+}
+
+article h2 {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-bottom: 5px;
+}
+
+article:nth-of-type(-n+2) h2::before {
+    content: "! NEW ! ";
+    color: 	#B22222;
+}
+
+.article-meta {
+    color: rgb(134, 142, 150);
+    margin-bottom: 5px;
+}
+
+article img {
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+}
+
+footer {
+    padding: 20px 0 60px;
+    text-align: center;
+    background-color:#E8E8E8;
+    border-radius: 25px 25px 0px 0px;
+}
+
+footer .links {
+    margin-bottom: 50px;
+}
+
+footer .links > a {
+    color: #686868;
+    padding: 0 25px;
+    font-size: 13px;
+    font-weight: 600;
+    letter-spacing: .1rem;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+.copyright {
+    color: blue; /*Вернуться к цветy позже*/
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.repair {
+    background-color: #F5F5F5;
+    padding: 20px;
+    margin: 10px 0px;
+    border-bottom: 4px ridge rgba(128, 128, 128, .6);
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    border-radius: 25px;
+}
+
+.repair img {
+    width: 15%;
+    padding: 20px;
+}
