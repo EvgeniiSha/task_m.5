@@ -55,4 +55,4 @@
 ---
 
 **Author:** Evgenii Shaporov,<br/>
-мая 2023 года
+май 2023 года
